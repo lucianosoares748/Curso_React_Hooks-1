@@ -1,13 +1,11 @@
-/*
 import logo from './logo.svg';
 import { useState } from 'react';
-*/
+
 import Aula from './components/Aula';
 import './App.css';
+import Memo from './components/Memo';
 
 function App() {
-  {
-    /*
   const [reverse, setReverse] = useState(false);
   const [counter, setCounter] = useState(0);
   //Esta variável serve para alterar entre as classes CSS que altera a rotação da logo.
@@ -23,13 +21,12 @@ function App() {
   //do onClick para que quando eu clicar ele incrementar +1
   const handleIncrement = () => {
     setCounter(counter + 1);
-  };*/
-  }
+  };
 
   return (
     <div className="App">
       <Aula />
-      {/*<header className="App-header">
+      <header className="App-header">
         <img src={logo} className={`App-logo ${reverseClass}`} alt="logo" />
 
         <h1>Contador: {counter}</h1>
@@ -44,7 +41,8 @@ function App() {
             Increment {counter}
           </button>
         </p>
-      </header>*/}
+      </header>
+      <Memo />
     </div>
   );
 }
