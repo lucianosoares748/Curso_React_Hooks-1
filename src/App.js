@@ -3,7 +3,7 @@ import { useState } from 'react';
 
 import Aula from './components/Aula';
 import './App.css';
-import Memo from './components/Memo';
+import Memorizar from './components/Memorizar';
 
 function App() {
   const [reverse, setReverse] = useState(false);
@@ -42,7 +42,7 @@ function App() {
           </button>
         </p>
       </header>
-      <Memo />
+      <Memorizar />
     </div>
   );
 }
