@@ -26,6 +26,7 @@ function App() {
   return (
     <div className="App">
       <Aula />
+      <Memorizar />
       <header className="App-header">
         <img src={logo} className={`App-logo ${reverseClass}`} alt="logo" />
 
@@ -42,7 +43,6 @@ function App() {
           </button>
         </p>
       </header>
-      <Memorizar />
     </div>
   );
 }
